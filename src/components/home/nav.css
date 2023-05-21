@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_box{
+    height: 32vh;
+    background-color: rgb(206,50,70);
+    width: 100%;
+  }
+
+.container_page{
+    display: flex;
+    flex-direction: row-reverse; 
+  }
+
+.nav_menu{
+    display: flex;
+    gap: 8vh;
+    align-items: center;
+    margin-right: 40vh;
+    margin-top: 3.6vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.nav_itens a{
+    font-size: 20px;
+    color: rgb(255,253,253);
+    text-decoration: none; 
+  }
+
+.nav_itens a:hover{
+    opacity: 0.7;
+    border-radius: 5px;
+  }
+
+.title1{
+    position: absolute;
+    width: 7.4vh;
+    height: 5.3vh;
+    margin-right: 160vh;
+    margin-top: 13.4vh;
+    font-size: 4.8vh;
+    color: rgb(255,253,253);
+  }
+
+.title2{
+    position: absolute;
+    width: 141vh;
+    height: 8vh;
+    margin-right: 27vh;
+    margin-top: 19vh;
+    font-size: 6.1vh;
+    color: rgb(255,253,253);
+  }
+
+
+.bar {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 23vh;
+  align-items: center;
+
+}
+
+form {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #fffdfd;
+  width: 744px;
+  height: 56px;
+  border-radius: 7px;
+  align-items:center;
+  border: 1px solid #e0e0e0;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #9d9797;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+::placeholder {
+  color: #9d9797;
+  opacity: 0.7; 
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+svg {
+  color: #9d9797;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  }
