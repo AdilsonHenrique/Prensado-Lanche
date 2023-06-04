@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title1 {
+  position: absolute;
+  height: 5.3vh;
+  margin-left: 29vh;
+  margin-top: 14vh;
+  font-size: 4.8vh;
+  color: rgb(255, 253, 253);
+}
+
+.title2 {
+  position: absolute;
+  height: 8vh;
+  margin-left: 29vh;
+  margin-top: 19vh;
+  font-size: 6.1vh;
+  color: rgb(255, 253, 253);
+}

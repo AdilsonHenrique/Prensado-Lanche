@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dogs_title {
+    position: absolute;
+    width: 17vh;
+    height: 8vh;
+    margin-left: 40vh;
+    margin-top: 13vh;
+    font-size: 7vh;
+    color: rgb(255, 253, 253);
+}
+
+.box {
+    color: black;
+}
+
+.box img {
+    border-radius: 1vh;
+    width: 28vh;
+    height: 15vh;
+    object-fit: cover;
+}

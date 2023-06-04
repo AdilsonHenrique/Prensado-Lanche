@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.lanches_title {
+    position: absolute;
+    width: 17vh;
+    height: 8vh;
+    margin-left: 40vh;
+    margin-top: 13vh;
+    font-size: 7vh;
+    color: rgb(255, 253, 253);
+}
+
+.box_cardapio1 {
+    position: absolute;
+}
